@@ -35,13 +35,11 @@
                         <li>
                             <a href="?p=home"><i class="fa fa-home fa-fw"></i> Beranda</a>
                         </li>
-						
-						
                         <li>
                             <a href="#"><i class="fa fa-user fa-fw"></i> Manajemen User<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">							<li>                                    <a href="?p=useradmin">Staf</a>                                </li>
+                            <ul class="nav nav-second-level">							<li>                                    <a href="?p=userstaff">Staf</a>                                </li>
                                 <li>
-                                    <a href="?p=useradmin">Mahasiswa</a>
+                                    <a href="?p=usermhs">Mahasiswa</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
