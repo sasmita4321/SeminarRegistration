@@ -5,7 +5,7 @@
   <title>Seminar Registration Aplication for Participant</title>
       <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
@@ -15,8 +15,8 @@
 	 <h1><img src='img/logo-ipb.png' float='center' width='75px'/></p></h1>
 		
 		<form class='form' name='daftar' action='cek_login.php' method='POST' onSubmit='return validasi(this)'>
-			<input type=text name='username' class='form-control' placeholder='Cth : danz.sasmita@gmail.com'>
-			<input type=password name='password' class='form-control' placeholder='**********'>
+			<input type=text name='username' class='form-control' placeholder='Cth : myname@gmail.com' required>
+			<input type=password name='password' class='form-control' placeholder='**********' required>
 			<button type='submit' class='btn btn-primary'>Sign In</button>
 		</form>
 		<form class='form' name='daftar' action='index.php' method='POST' onSubmit='return validasi(this)'>

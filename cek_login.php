@@ -32,7 +32,7 @@ if ($r['level']=='admin'){
   header('location:panel/index.php');
 }
 else {
-	header('location:index.php');
+	header('location:panel/index.php');
 }
 }
 else{

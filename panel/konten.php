@@ -13,14 +13,14 @@ if ($_GET['p']=='home')
 include "module/home/home.php";
 }
 else
-if ($_GET['p']=='useradmin')
+if ($_GET['p']=='staff')
 { 
-include "module/useradmin/administrator.php";
+include "module/useradmin/staff.php";
 }
-else
-	if ($_GET['p']=='ppk')
+else	if ($_GET['p']=='mhs'){ include "module/useradmin/mhs.php";}else
+	if ($_GET['p']=='jadwal')
 { 
-include "module/peserta/peserta_k.php";
+include "module/jadwal/jadwal.php";
 }
 else
 	if ($_GET['p']=='pps')

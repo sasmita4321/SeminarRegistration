@@ -35,19 +35,9 @@
                         <li>
                             <a href="?p=home"><i class="fa fa-home fa-fw"></i> Beranda</a>
                         </li>
-						
-						
-                        <li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i> Manajemen User<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">							<li>                                    <a href="?p=useradmin">Staf</a>                                </li>
-                                <li>
-                                    <a href="?p=useradmin">Mahasiswa</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
+						
 						 <li>
-                            <a href="#"><i class="fa fa-calendar fa-fw"></i> Manajemen Jadwal Seminar<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-calendar fa-fw"></i> Jadwal Seminar<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="?p=ppk">Daftar Jadwal</a>
@@ -56,14 +46,14 @@
                             <!-- /.nav-second-level -->
                         </li>
 						<li>
-                            <a href="#"><i class="fa fa-university fa-fw"></i> Manajemen Ruangan<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-university fa-fw"></i> Manajemen Registrasi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="?p=userad">Daftar ruangan</a>
-                                </li>
+                                    <a href="?p=">Daftar Registrasi</a>
+                                </li>								 <li>                                    <a href="?p=">Manajemen Verifikasi</a>                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
-                        </li><li>                            <a href="#"><i class="fa fa-file-text-o fa-fw"></i> Manajemen Registrasi<span class="fa arrow"></span></a>                            <ul class="nav nav-second-level">                                <li>                                    <a href="?p=userad">Daftar Booking/Registrasi Online</a>                                </li>								<li>                                    <a href="?p=userad">Daftar Registrasi Ditempat</a>                                </li>								<li>                                    <a href="?p=userad">Daftar Peserta Terblokir</a>                                </li>								                            </ul>                            <!-- /.nav-second-level -->                        </li>
+                        </li>
 						
 						
 						

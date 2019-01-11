@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-if ($_SESSION['leveluser']!='admin'){
+if (empty($_SESSION['namauser']) AND empty($_SESSION['passuser'])){
  include "403.php";
 }
 else{
@@ -136,7 +136,12 @@ include "../config/fungsi_rupiah.php";
 						$z=mysql_fetch_array($tz);	
 ?>
 <?php
-include "menu_admin.php";
+$lvusers=$_SESSION['leveluser'];
+if($lvusers == "mhs") {
+include "menu_mhs.php";}
+else {
+	include "menu_admin.php";
+}
 include "konten.php";  
 echo"
 <div class='panel-body'>

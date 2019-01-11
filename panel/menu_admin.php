@@ -37,9 +37,9 @@
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-user fa-fw"></i> Manajemen User<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">							<li>                                    <a href="?p=userstaff">Staf</a>                                </li>
+                            <ul class="nav nav-second-level">							<li>                                    <a href="?p=staff">Staf</a>                                </li>
                                 <li>
-                                    <a href="?p=usermhs">Mahasiswa</a>
+                                    <a href="?p=mhs">Mahasiswa</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -48,7 +48,7 @@
                             <a href="#"><i class="fa fa-calendar fa-fw"></i> Manajemen Jadwal Seminar<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="?p=ppk">Daftar Jadwal</a>
+                                    <a href="?p=jadwal">Daftar Jadwal</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->

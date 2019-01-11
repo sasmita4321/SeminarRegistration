@@ -14,7 +14,7 @@ echo"
 <div id='page-wrapper'>
             <div class='row'>
                 <div class='col-lg-12'>
-                    <h1 class='page-header'>Administrator</h1>
+                    <h1 class='page-header'>Staff Admin</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -23,7 +23,7 @@ echo"
                 <div class='col-lg-12'>
                     <div class='panel panel-default'>
                         <div class='panel-heading'>
-							 <button class='btn btn-primary' data-toggle='modal' data-target='#myModal' ><span class='fa fa-plus-circle'></span>&nbspTAMBAH USER</button>
+							 <button class='btn btn-primary' data-toggle='modal' data-target='#myModal' ><span class='fa fa-plus-circle'></span>&nbspTAMBAH USER STAFF</button>
 							<div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
                                 <div class='modal-dialog'>
                                     <div class='modal-content'>
@@ -162,7 +162,7 @@ echo"
                                     </thead>
                                     <tbody>";
 						
-							$tp=mysql_query("SELECT * FROM user ORDER BY id_user DESC");
+							$tp=mysql_query("SELECT * FROM user WHERE level='admin' ORDER BY id_user DESC");
 							while($rs=mysql_fetch_array($tp)){
 								
 								$tz=(mysql_query("SELECT * FROM tb_datauser WHERE nik='$rs[nik]'"));
